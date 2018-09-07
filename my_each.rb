@@ -1,5 +1,10 @@
 def my_each(array) # put argument(s) here
-  # code here
+  index = 0
+
+  while index < array.length
+    yield puts array[index]
+    i += 1
+  end
 end
 
 
@@ -20,3 +25,6 @@ end
 # the program is executing the code inside the method
 # the method has yielded to the block!
 # now we are back in the method
+
+
+# You'll be building out the content of the #my_each method. This method should accept an argument of an array and use the while loop to iterate over each member of that array, yielding each element contained in the array to a block.
