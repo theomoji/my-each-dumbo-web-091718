@@ -2,7 +2,7 @@ def my_each(array) # put argument(s) here
   index = 0
 
   while index < array.length
-    yield puts array[index]
+    yield array[index]
     i += 1
   end
 end
