@@ -4,6 +4,3 @@ def my_each(array) # put argument(s) here
   yield array[i]
   i += 1
 end
-
-my_each(array) do
-  |element| puts element
